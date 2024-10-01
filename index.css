@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.franja-azul-oscuro-cabecera{
+    background-color: #0B2640;
+    width: 100%;
+    height: 3vh;     
+}
+.cabecera-azul-con-info{
+    background-color: #2B547A;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    gap: 8vw;
+    align-items: center;
+}
+.cabecera-azul-con-info h4{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.logo-cabecera{
+    margin-left: 5vw;
+    width: 5%;
+}
+nav{
+    display: flex;
+    margin-left: 15vw;
+    gap: 6vw;
+    align-items: center;
+    width: 80%;
+    height: 10%;
+}
+.botones{
+    margin-left: 7vw;
+    display: flex;
+    gap: 7%;
+}
+#boton-registro{
+    background-color: #DB9102;
+}
+.banner-principal-index-perro{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+    width: 7vw;
+    height: 3.7vh;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imagenes-doctores{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+}
+.doctores{
+    width: 45%;
+}
+.nuestros-servicios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vh;
+    flex-direction: column;
+}
+.texto-nuestros-servicios{
+    width: 15vw;
+    cursor: pointer;
+}
+.imagenes-de-servicio{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+    gap: 3vw;
+}
+.contenedor-imagen-servicio-y-boton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.servicios{
+    width: 15vw;
+}
+.bton-servicio{
+    width: 9vw;
+    cursor: pointer;
+    margin-top: -3vh;
+    transition: transform 0.3s;
+}
+.bton-servicio:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    margin-top: -3vh;
+}
+
+.informacion-quienes-somos {
+    position: relative; /* Necesario para contener el botón */
+}
+
+.imagen-con-tonalidad-azul {
+    width: 100%;
+    margin-top: 6.5vh;
+}
+
+.fondo-informacion {
+    width: 55%;
+    margin-left: 20%;
+    margin-top: -19%;
+    position: relative; 
+}
+
+.imagen-informacion-quienes-somos{
+    width: 100%; 
+}
+
+.btn-quienes-somos {
+    position: absolute; 
+    top: 85%; 
+    left: 76%; 
+    transform: translate(-50%, -50%); 
+    cursor: pointer; 
+    width: 15vw;
+}
+.btn-quienes-somos:hover {
+    position: absolute; 
+    top: 85%; 
+    left: 76%; 
+    transform: translate(-50%, -50%); 
+    cursor: pointer; 
+    width: 16vw;
+}
+.circulos{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+
+}
+.circulo1{
+    position: absolute;
+    background-color: #D2E5EF;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 100%;
+    margin-left: 1vw;
+    margin-top: 3vh;
+}
+.circulo2{
+    position: absolute;
+    background-color: #D2E5EF;
+    width: 4vw;
+    height: 4vw;
+    border-radius: 100%;
+    margin-left: 13vw;
+    margin-top: 8vh;
+}
+.circulo3{
+    position: absolute;
+    background-color: #D2E5EF;
+    width: 50vw;
+    height: 50vw;
+    border-radius: 100%;
+    margin-left: -5%;
+    margin-top: 20vh;
+}
+.circulo4{
+    position: absolute;
+    background-color: #D2E5EF;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 100%;
+    margin-left: 82%;
+    margin-top: 5vh;
+}
+.circulo5{
+    position: absolute;
+    background-color: #D2E5EF;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 100%;
+    margin-left: 90%;
+    margin-top: 3vh;
+}
+.circulo6{
+    background-color: #D2E5EF;
+    width: 50vw;
+    height: 50vw;
+    border-radius: 100%;
+    margin-left: 55%;
+    margin-top: 19vh;
+    overflow: hidden;
+    
+}
+.banners{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-perro{
+    position: absolute;
+    width: 40vw;
+    height: 19vw;
+    background-color: #9D83BE;
+    border-radius: 17px;
+    margin-top: -60vw;
+    margin-left: 55vw;
+}
+.banner-gato{
+    position: absolute;
+    width: 40vw;
+    height: 19vw;
+    background-color: #63BD87;
+    border-radius: 17px;
+    margin-bottom: 60vw;
+    margin-left: 145vw;
+}
+
+.imagen-perro{
+    margin-top: -3.4vh;
+    margin-left: 2vw;
+}
