@@ -144,8 +144,23 @@ button{
     cursor: pointer; 
     width: 16vw;
 }
+.div-nuestra-tienda{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11vh;
+}
+.div-nuestra-tienda h6{
+    margin-top: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 120%;
+}
 .circulos{
     position: relative;
+    margin-top: -28vh;
     overflow: hidden;
     width: 100%;
 
@@ -175,7 +190,7 @@ button{
     height: 50vw;
     border-radius: 100%;
     margin-left: -5%;
-    margin-top: 20vh;
+    margin-top: 19vh;
 }
 .circulo4{
     position: absolute;
@@ -207,9 +222,9 @@ button{
 }
 .banners{
     position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 .banner-perro{
     position: absolute;
@@ -217,8 +232,17 @@ button{
     height: 19vw;
     background-color: #9D83BE;
     border-radius: 17px;
-    margin-top: -60vw;
-    margin-left: 55vw;
+    margin-top: -40vw;
+    margin-left: 7vw;
+}
+.imagen-perro{
+    margin-top: -3.2vh;
+    margin-left: 2vw;
+}
+.texto-perro{
+    margin-top: 6vw;
+    position: absolute;
+    margin-left: 3vw;
 }
 .banner-gato{
     position: absolute;
@@ -226,11 +250,26 @@ button{
     height: 19vw;
     background-color: #63BD87;
     border-radius: 17px;
-    margin-bottom: 60vw;
-    margin-left: 145vw;
+    margin-top: -40vw;
+    margin-left: 52vw;
+}
+.imagen-gato{
+    margin-top: -1.2vh;
+    margin-left: 16vw;
+}
+.texto-gato{
+    margin-top: 6.1vw;
+    margin-left: -32vw;
+    position: absolute;
+}
+.recuadro-gris-fondo-productos{
+    margin-top: -14vw;
+    position: absolute;
+    width: 80vw;
+    height: 40vh;
+    background-color: #A6BBC8;
+    margin-left: 10vw;
+    border-radius: 10px;
 }
 
-.imagen-perro{
-    margin-top: -3.4vh;
-    margin-left: 2vw;
-}
+
