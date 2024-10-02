@@ -10,6 +10,8 @@
     <header>
         <div class="franja-azul-oscuro-cabecera"></div>
         <div class="cabecera-azul-con-info">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">&#9776;</label>
             <img class="logo-cabecera" src="img/logooo1 2.png" alt="Imagen-logo">
             <nav>
                 <a href=""><h4>Inicio</h4></a>
@@ -22,6 +24,7 @@
                 </div>
             </nav>
         </div>
+        <script src="index.js"></script>
     </header>
     <img class="banner-principal-index-perro" src="img/banner-principal-index-perro.png" alt="Banner principal">
     <div class="imagenes-doctores">
@@ -31,21 +34,25 @@
     <div class="nuestros-servicios">
         <a href="#"><img class="texto-nuestros-servicios" src="img/Nuestros Servicios.png" alt="Texto nuestros servicios"></a>
         <div class="imagenes-de-servicio">
-            <div class="contenedor-imagen-servicio-y-boton">
-            <img class="servicios" src="img/servicio1.png" alt="Imagen de servicio">
-            <a href="#"><img class="bton-servicio" src="img/boton-servicio1.png" alt="boton de servicio"></a>
-            </div>
-            <div class="contenedor-imagen-servicio-y-boton">
-            <img class="servicios" src="img/servicio2.png" alt="Imagen de servicio">   
-            <a href="#"><img class="bton-servicio" src="img/boton-servicio2.png" alt="boton de servicio"></a> 
-            </div>  
-            <div class="contenedor-imagen-servicio-y-boton">
-            <img class="servicios" src="img/servicio3.png" alt="Imagen de servicio">
-            <a href="#"><img class="bton-servicio" src="img/boton-servicio3.png" alt="boton de servicio"></a>
-            </div>
-            <div class="contenedor-imagen-servicio-y-boton">
-            <img class="servicios" src="img/servicio4.png" alt="Imagen de servicio">
-            <a href="#"><img class="bton-servicio" src="img/boton-servicio4.png" alt="boton de servicio"></a>
+            <div class="primera-ilera-servicios">
+                <div class="contenedor-imagen-servicio-y-boton">
+                <img class="servicios" src="img/servicio1.png" alt="Imagen de servicio">
+                <a href="#"><img class="bton-servicio" src="img/boton-servicio1.png" alt="boton de servicio"></a>
+                </div>
+                <div class="contenedor-imagen-servicio-y-boton">
+                <img class="servicios" src="img/servicio2.png" alt="Imagen de servicio">   
+                <a href="#"><img class="bton-servicio" src="img/boton-servicio2.png" alt="boton de servicio"></a> 
+                </div> 
+            </div> 
+            <div class="segunda-ilera-servicios">
+                <div class="contenedor-imagen-servicio-y-boton">
+                <img class="servicios" src="img/servicio3.png" alt="Imagen de servicio">
+                <a href="#"><img class="bton-servicio" src="img/boton-servicio3.png" alt="boton de servicio"></a>
+                </div>
+                <div class="contenedor-imagen-servicio-y-boton">
+                <img class="servicios" src="img/servicio4.png" alt="Imagen de servicio">
+                <a href="#"><img class="bton-servicio" src="img/boton-servicio4.png" alt="boton de servicio"></a>
+                </div>
             </div>
         </div>   
     </div>
@@ -59,8 +66,8 @@
     </div>
     
     <div class="div-nuestra-tienda">
-        <img src="img/icono-tienda.png" alt="Icono tienda">
-        <a href="#"><img src="img/texto-nuestra-tienda.png" alt="Texto nuestra tienda"></a>
+        <img class="icono-tienda" src="img/icono-tienda.png" alt="Icono tienda">
+        <img class="texto-nuestra-tienda" src="img/texto-nuestra-tienda.png" alt="Texto nuestra tienda">
         <h6>¿Qué tipo de productos estás buscando?</h6>
     </div>
     <div class="circulos">
@@ -82,7 +89,52 @@
         </div></a>
     </div>
     <div class="recuadro-gris-fondo-productos">
-        
+        <div class="categorias">
+            <img src="img/texto-categorias.png" alt="Texto categorías">
+        </div>
+        <div class="servicios">
+            <a href="#"><div class="primer-servicio">
+                <img src="img/primer-producto.png" alt="primero servicio">
+                <img class="primer-boton" src="img/boton-snacks-y-servicios.png" alt="Boton del primer servicio">
+            </div></a>
+            <a href="#"><div class="segundo-servicio">
+                <img src="img/segundo producto.png" alt="segundo servicio">
+                <img class="primer-boton" src="img/boton-juguetes-y-accesorios.png" alt="Boton del segundo servicio">
+            </div></a>
+            <a href="#"><div class="tercer-servicio">
+                <img src="img/tercer-producto.png" alt="tercer servicio">
+                <img class="segundo-boton" src="img/boton-higiene-limpieza.png" alt="Boton del tercer servicio">
+            </div></a>
+            <a href="#"><div class="tercer-servicio">
+                <img src="img/cuarto-producto.png" alt="cuarto producto">
+                <img class="segundo-boton" src="img/boton-salud-bienestar.png" alt="Boton del cuarto producto">
+            </div></a>
+        </div>
     </div>
+    <img class="ultimo-banner" src="img/ultimo-banner.png" alt="Banner informativo">
+    <footer>
+        <img class="background-footer" src="img/footer.png" alt="footer">
+        <div class="primer-div-footer">
+            <img class="logo-footer" src="img/logo-footer.png" alt="logo del footer">
+            <div class="redes-sociales">
+                <img src="img/instagram.png" alt="icono de instragram">
+                <img src="img/equis-img.png" alt="icono de  equis">
+                <img src="img/whatsapp-img.png" alt="icono de whatsapp">
+                <img src="img/facebook-img.png" alt="icono de facebook">
+            </div>
+        </div>
+        <div class="enlaces">
+            <a href="#">Sobre Nosotros</a>
+            <a href="#">Inicio</a>
+            <a href="#">Nuestra tienda</a>
+        </div>
+        <div class="contacto">
+            <h5>Contactanos</h5>
+            <h5>316 841 7456</h5>
+            <h5>Visitanos</h5>
+            <h5>Calle 11 No. 15-49 Fonseca</h5>
+        </div>
+    </footer>
+    <img class="debajo-footer" src="img/debajo-footer.png" alt="debajo-footer">
 </body>
 </html>

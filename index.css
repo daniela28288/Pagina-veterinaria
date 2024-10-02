@@ -25,7 +25,7 @@
 
 .logo-cabecera{
     margin-left: 5vw;
-    width: 5%;
+    width: 90px;
 }
 nav{
     display: flex;
@@ -61,12 +61,13 @@ button{
 .imagenes-doctores{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 3%;
 }
 .doctores{
-    width: 45%;
+    width: 850px;
 }
 .nuestros-servicios{
     display: flex;
@@ -76,16 +77,22 @@ button{
     flex-direction: column;
 }
 .texto-nuestros-servicios{
-    width: 15vw;
+    width: 250px;
     cursor: pointer;
 }
 .imagenes-de-servicio{
     width:100%;
+    flex-wrap: wrap;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 4vh;
     gap: 3vw;
+}
+.primera-ilera-servicios, .segunda-ilera-servicios{
+    display: flex;
+    gap: 3vw;
+
 }
 .contenedor-imagen-servicio-y-boton{
     display: flex;
@@ -94,10 +101,10 @@ button{
     align-items: center;
 }
 .servicios{
-    width: 15vw;
+    width: 250px;
 }
 .bton-servicio{
-    width: 9vw;
+    width: 150px;
     cursor: pointer;
     margin-top: -3vh;
     transition: transform 0.3s;
@@ -109,7 +116,7 @@ button{
 }
 
 .informacion-quienes-somos {
-    position: relative; /* Necesario para contener el botón */
+    position: relative;
 }
 
 .imagen-con-tonalidad-azul {
@@ -118,7 +125,7 @@ button{
 }
 
 .fondo-informacion {
-    width: 55%;
+    width: 56vw;
     margin-left: 20%;
     margin-top: -19%;
     position: relative; 
@@ -190,7 +197,7 @@ button{
     height: 50vw;
     border-radius: 100%;
     margin-left: -5%;
-    margin-top: 19vh;
+    margin-top: 190px;
 }
 .circulo4{
     position: absolute;
@@ -263,13 +270,197 @@ button{
     position: absolute;
 }
 .recuadro-gris-fondo-productos{
-    margin-top: -14vw;
+    margin-top: -14.8vw;
     position: absolute;
-    width: 80vw;
-    height: 40vh;
+    width: 73vw;
+    height: 52vh;
     background-color: #A6BBC8;
-    margin-left: 10vw;
+    margin-left: 13vw;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.servicios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    margin-top: 1.1vw;
+}
+.primer-servicio, .segundo-servicio, .tercer-servicio, .cuarto-servicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 14vw;
+}
+.primer-boton{
+    margin-top: -1vw;
+    margin-left: -2vw;
+    width: 13vw;
+}
+.segundo-boton{
+    margin-top: -1vw;
+    margin-left: 3vw;
+    width: 12vw;
+}
+.ultimo-banner{
+    margin-top: 32vh;
+    width: 100%;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 46vh;
+    margin-top: -0.2vw ;
+    position: relative;
+    gap: 12vw;
+}
+.background-footer{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.primer-div-footer{
+    margin-left: 5vw;
+}
+.logo-footer{
+    width: 10vw;
+}
+footer div{
+    margin-top: 5vh;
+}
+.enlaces{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 1vh;
+    margin-top: 10vh;
+}
+.enlaces a{
+    color: white;
+}
+.debajo-footer{
+    margin-top: -1vh;
+    width: 100%;
+    margin-bottom: 0vh;
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+
+    gap: 1vh;
+    margin-top: 10vh;
+}
+h5{
+    font-weight: 100;
+}
+/* Estilos del menú hamburguesa */
+.menu-toggle {
+    display: none; 
 }
 
+.hamburger {
+    display: none; 
+    font-size: 30px;
+    cursor: pointer;
+    color: white; 
+    margin-left: auto; 
+    margin-right: 2vw;
+}
 
+@media (max-width: 1050px) {
+    .imagenes-doctores{
+        margin-top: 30px;
+    }
+    .doctores{
+        width: 550px;
+    }
+
+    nav {
+        display: none;
+        flex-direction: column; 
+        position: absolute; 
+        background-color: #2B547A; 
+        top: 10vh; 
+        left: 0;
+        width: 100%; 
+        z-index: 10; 
+        height: 20vh;
+    }
+
+    .menu-toggle:checked + .hamburger + nav {
+        display: flex; 
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+    .hamburger {
+        display: block; 
+    }
+
+    .hamburger {
+        font-size: 30px;
+        margin-left: auto; 
+    }
+    
+    .logo-cabecera{
+        display: block;
+        margin-right: 55%;
+        position: absolute;
+    }
+    .texto-nuestros-servicios{
+        width: 250px;
+    }
+    .fondo-informacion{
+        width: 500px;
+        margin: 10px;
+    }
+    .imagen-con-tonalidad-azul{
+        display: none;
+    }
+    .fondo-informacion{
+        width: 100%;
+        margin-top: 9vh;
+    }
+    .btn-quienes-somos{
+        width:220px ;
+    }
+    .circulos{
+        display: none;
+    }
+    .recuadro-gris-fondo-productos{
+        display: none;
+    }
+    .banners{
+        margin-top:1vh;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .banner-gato, .banner-perro{
+        position:static;
+        margin-top: 80m vh;
+    }
+    .div-nuestra-tienda{
+        margin-top: 9vh;
+    }
+    .icono-tienda{
+        width: 90px;
+    }
+    .texto-nuestra-tienda{
+        width: 200px;
+        margin-top: 2vh;
+    }
+}
