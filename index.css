@@ -378,7 +378,7 @@ h5{
     margin-right: 8vw;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 750px) {
     .imagenes-doctores{
         margin-top: 1px;
 
