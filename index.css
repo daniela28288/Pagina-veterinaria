@@ -484,7 +484,7 @@ h5{
     .banner-gato{
         width: 350px;
         height: 150px;
-        margin-top: 20vh;
+        margin-top: 25vh;
         margin-left: -8px;
 
     }
@@ -513,13 +513,13 @@ h5{
         font-size: 15px;
     }
     .ultimo-banner{
-        margin-top: 460px;
+    display: none;
     }
     .background-footer{
         display: none;
     }
     footer{
-        margin-top: -4.9px;
+        margin-top: 55vh;
         background-color: #2B547A;
         display: flex;
         justify-content: center;
