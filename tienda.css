@@ -154,7 +154,17 @@ body{
     margin-top: -40px;
     gap: 50px;
 }
-.titulo-categoria-higiene, .titulo-categoria-juguetes{
+.quinta-categoria-productos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #73B09A;
+    width: 100%;
+    height: 50vh;
+    margin-top: -40px;
+    gap: 50px;
+}
+.titulo-categoria-higiene, .titulo-categoria-juguetes, .titulo-categoria-salud{
     margin-top: 80px;
 }
 .informacion-con-iconos{
