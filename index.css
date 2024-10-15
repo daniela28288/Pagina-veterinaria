@@ -484,7 +484,7 @@ h5{
     .banner-gato{
         width: 350px;
         height: 150px;
-        margin-top: 25vh;
+        margin-top: 30vh;
         margin-left: -8px;
 
     }
@@ -519,7 +519,7 @@ h5{
         display: none;
     }
     footer{
-        margin-top: 55vh;
+        margin-top: 50vh;
         background-color: #2B547A;
         display: flex;
         justify-content: center;
