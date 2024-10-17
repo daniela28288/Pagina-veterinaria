@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecera-tienda{
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+/* .icono-home{
+    z-index: 2;
+    margin-left: 90vw;
+    position: absolute;
+    margin-top: 240px;
+} */
+.container-producto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    margin-top: 20vh;
+}
+.vistas-productos-pequeños{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(58, 58, 58);
+}
+#contador {
+    font-size: 2em;
+    margin: 20px;
+}
+button {
+    font-size: 1em;
+    margin: 5px;
+}

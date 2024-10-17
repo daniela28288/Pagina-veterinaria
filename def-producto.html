@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descripcion de producto</title>
+    <link rel="stylesheet" href="def-producto.css">
+</head>
+<body>
+    <header>
+        <img class="cabecera-tienda" src="/img/edit-cabecera.png" alt="Cabecrea de la tienda">
+        <a href="index.html"><img class="icono-home" src="/img/icono-home.png" alt=""></a>
+    </header>
+
+    <div class="container-producto">
+        <div class="vistas-productos-pequeños">
+            <img src="img/vista-producto1.png" alt="">
+            <img src="img/vista-producto2.png" alt="">
+        </div>
+        <div class="imagen-grande">
+            <img src="img/producto-grande.png" alt="">
+        </div>
+        <div class="descripcion">
+            <img src="img/titulo-producto.png" alt="">
+            <p>Con su fórmula antibacterial, absorción superior y control de olores <br> duradero, garantiza un ambiente limpio
+            y seguro para tu <br> mascota. Fácil de limpiar y suave para 
+            las patitas sensibles de tu <br> gato. ¡17,89 kg de comodidad y limpieza!</p>
+            <img src="img/cinco-estrellas.png" alt=""> <br> <br>
+            <img src="img/precio.png" alt="">
+            <p>Contenido: 10 libras</p>
+            <p>Cantidad</p>
+            <div id="contador">0</div>
+            <button onclick="aumentar()">+</button>
+            <button onclick="disminuir()">-</button>
+            <script src="def-producto.js"></script>
+        </div>
+    </div>
+</body>
+</html>
